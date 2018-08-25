@@ -1,0 +1,8 @@
+print('Hello Word!!!')
+print('Co jest doktorku', end=' ')
+print('- Żyjesz?')
+print('No to pozdrowienia z Wawki!!!!')
+print('Takie tam pierdoły', end='\\\\')
+print('I takie tam')
+print('Ala','Ola','Ela', sep=';', end='\n')
+print('Koniec')
