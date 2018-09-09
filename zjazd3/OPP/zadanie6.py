@@ -42,7 +42,7 @@ class Vector():
     def __ne__(self, other):
         return self.lenght != other.lenght
     def __str__(self):
-        return f'V{self.x},{self.y}: {self.lenght}'
+        return f'V({self.x},{self.y}) : {self.lenght}'
 
 
 
@@ -104,6 +104,7 @@ def test_sort():
     v3 = Vector(3,2)
     listaV = [v1, v2, v3]
     assert sorted(listaV) == [v2,v1,v3]
-    #print(listaV)
+    for l in listaV:
+        print(l, end=' ')
 
 
