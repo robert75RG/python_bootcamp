@@ -30,7 +30,7 @@ class PremiumEmployee(Employee):
         return PremiumEmployee(lista_param[0], lista_param[1], int(lista_param[2]))
 
     @staticmethod
-    def say_hello:
+    def say_hello():
         return 'Hello'
 
 
